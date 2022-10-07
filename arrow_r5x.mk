@@ -36,4 +36,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="trinket-user 10 QKQ1.200209.002 release-keys"
 
 # Arrow Flags
-ARROW_GAPPS := true
+
