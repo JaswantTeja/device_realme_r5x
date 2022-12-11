@@ -345,6 +345,10 @@ PRODUCT_PACKAGES += \
     libstagefrighthw \
     vendor.qti.hardware.capabilityconfigstore@1.0.vendor
 
+# Partitions (Dynamic)
+PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
